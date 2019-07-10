@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "customposter",
+  "version": "${version}",
+
+  "name": "Customposter",
+  "description": "Allows players to define what items can be composted",
+  "authors": [
+    "Cuplex"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/customposter",
+    "sources": "https://github.com/Cuplex17/customposter"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cuplex.customposter.Customposter"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
